@@ -15,3 +15,9 @@ a command line tool to manage your vms at haio.ir
     update  id  cpu  ram  title           >  updated vm 
     logout                                >  remove user credentials and logout                
     refresh                               >  update access token
+    
+
+### installation:
+git clone https://github.com/semycolon/haio_cli.git
+cd haio_cli
+sudo npm i -g .
