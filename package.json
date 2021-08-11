@@ -1,0 +1,20 @@
+{
+  "name": "haio_cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "mkdirp": "^1.0.4",
+    "node-localstorage": "^2.2.1"
+  },
+  "bin": {
+    "haio": "./bin/index.js"
+  }
+}
