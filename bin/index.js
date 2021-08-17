@@ -48,6 +48,7 @@ const commands = {
   },
   status() {},
   async login() {
+      const $2 = rest[0];
       if(!$1 || !$2){
           console.error('Bad Arguments');
           return 0;
